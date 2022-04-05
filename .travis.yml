@@ -1,0 +1,10 @@
+language: objective-c
+
+osx_image: xcode13.2.1
+env:
+  matrix:
+    - TEST_SDK=iphonesimulator15.2 OS=15.2 NAME='iPhone X'
+    - TEST_SDK=iphonesimulator15.2 OS=15.2 NAME='iPhone127'
+
+script:
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project SwiftyLib.xcodeproj -scheme SwiftyLib -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
