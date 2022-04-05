@@ -14,15 +14,23 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>ChattingLibExamples (iOS).xcscheme_^#shared#^_</key>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5F45FC7027FC50EC006EA582</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>primary</key>
+			<true/>
 		</dict>
-		<key>ChattingLibExamples (macOS).xcscheme_^#shared#^_</key>
+		<key>5F45FC7A27FC50EC006EA582</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5F45FCAA27FC51A0006EA582</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

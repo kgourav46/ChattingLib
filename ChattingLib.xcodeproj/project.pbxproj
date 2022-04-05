@@ -17,6 +17,7 @@
 		5F45FCB527FC51A0006EA582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F45FCB327FC51A0006EA582 /* Main.storyboard */; };
 		5F45FCB727FC51A2006EA582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F45FCB627FC51A2006EA582 /* Assets.xcassets */; };
 		5F45FCBA27FC51A2006EA582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F45FCB827FC51A2006EA582 /* LaunchScreen.storyboard */; };
+		5F45FCC027FC536F006EA582 /* ChattingLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45FCBF27FC536F006EA582 /* ChattingLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		5F45FCB627FC51A2006EA582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F45FCB927FC51A2006EA582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F45FCBB27FC51A2006EA582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F45FCBF27FC536F006EA582 /* ChattingLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				5F45FC7427FC50EC006EA582 /* ChattingLib.h */,
 				5F45FC7527FC50EC006EA582 /* ChattingLib.docc */,
+				5F45FCBF27FC536F006EA582 /* ChattingLib.swift */,
 			);
 			path = ChattingLib;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F45FC7627FC50EC006EA582 /* ChattingLib.docc in Sources */,
+				5F45FCC027FC536F006EA582 /* ChattingLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +497,7 @@
 		5F45FC8927FC50EC006EA582 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -508,6 +513,7 @@
 		5F45FC8A27FC50EC006EA582 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
